@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Figtree";
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.body {
+    background-color: white;
+
+    border-radius: 10px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+    width: 40%;
+    
+    padding: 15px;
+
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+img:nth-of-type(1) {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 80px;
+    padding: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.learning p, span {
+    font-weight: 700;
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+p:nth-of-type(2) {
+    color: hsl(0, 0%, 50%);
+    padding-top: 15px;
+}
+
+img:nth-of-type(2) {
+    width: 50px;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+
+span {
+    padding-left: 5px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
