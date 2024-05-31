@@ -10,20 +10,20 @@ body {
     background-color: hsl(47, 88%, 63%);
 }
 
-.body {
+.card {
     background-color: white;
 
     border-radius: 10px;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
 
-    width: 40%;
+    width: 350px;
     
     padding: 15px;
 
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 100px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img:nth-of-type(1) {
